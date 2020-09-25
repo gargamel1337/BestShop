@@ -65,7 +65,7 @@ ul{
   width: 100%;
   margin: 0;
 }
-/*styling the second side*/
+/*section - statistics*/
 .section-text{
     text-align: center;
     font: normal normal normal 36px Raleway;
@@ -133,7 +133,7 @@ ul{
     margin-top: 19px;
     text-align: center;
 }
-/* styling the next pages*/
+/* section - article */
 .article-container{
     background: #F7F7F7 0 0 no-repeat padding-box;
     display: flex;
@@ -222,7 +222,146 @@ ul{
     height: 208px;
     margin: 98px 92px 64px 62px;
 }
-/* contact styling*/
+/*section - price */
+.pricing-container{
+    display: flex;
+    margin: 100px auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pricing-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.pricing-title{
+    font: normal normal normal 36px Raleway;
+    text-align: center;
+}
+.pricing-details{
+    margin-top: 34px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.pricing-type{
+    font: normal normal bold 21px Raleway;
+}
+.pricing-price{
+    margin-top: 25px;
+    font: normal normal 300 46px Open Sans;
+    color: var(--color-primary);
+}
+.pricing-limited{
+    text-align: center;
+    margin-top: 20px;
+    font: normal normal bold 12px Raleway;
+}
+.pricing-limited-premium{
+    text-align: center;
+    font: normal normal bold 12px Raleway;
+    margin-bottom: -18px;
+}
+.pricing-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.pricing-item{
+    font: normal normal normal 14px Open Sans;
+    margin-bottom: 20px;
+}
+.pricing-item::before{
+    content: "";
+    width: 11px;
+    height: 11px;
+    border: 1px solid #55DFB4;
+    background-image: url("../images/Ckechmark-1.svg");
+    display: inline-block;
+    margin-right: 10px;
+}
+.pricing-item-not::before {
+    background-image: url("../images/Close.svg");
+}
+.btn-prices-basic {
+    width: 150px;
+    height: 50px;
+    color: white;
+    border-radius: 23px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 16px 57px;
+    font: normal normal bold 13px Open Sans;
+    position: relative;
+    bottom: -25px;
+    background: var(--color-redish)
+}
+.btn-prices-premium{
+    width: 150px;
+    height: 50px;
+    color: white;
+    border-radius: 23px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 16px 57px;
+    font: normal normal bold 13px Open Sans;
+    position: relative;
+    bottom: -25px;
+    background: var(--color-green)
+}
+.btn-important{
+    width: 150px;
+    height: 50px;
+    color: white;
+    border-radius: 23px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 16px 57px;
+    font: normal normal bold 13px Open Sans;
+    position: relative;
+    bottom: -25px;
+    background: var(--color-primary)
+}
+.pricing-box-basic{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid var(--color-redish);
+    width: 370px;
+    border-radius: 18px;
+    margin: 20px 59px;
+}
+.pricing-box-professional{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid var(--color-primary);
+    width: 400px;
+    margin: 0 40px;
+    box-shadow: 5px 1px 27px var(--color-primary-shadow);
+    font: normal normal bold 21px Raleway;
+    border-radius: 18px;
+}
+.pricing-box-premium{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid var(--color-green);
+    width: 370px;
+    border-radius: 18px;
+    margin: 20px 59px;
+
+
+
+
+}
+/* section - contact*/
 .contact{
     display: flex;
     justify-content: center;
